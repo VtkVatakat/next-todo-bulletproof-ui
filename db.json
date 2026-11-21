@@ -1,0 +1,128 @@
+{
+  "todos": [
+    {
+      "id": "1",
+      "title": "Изучить Next.js App Router, динамический роутинг и Bulletproof React",
+      "completed": true
+    },
+    {
+      "id": "2",
+      "title": "Проверить RTK Query, Slice, Zod, React Hook Form и shadcn/ui",
+      "completed": false
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "Алексей Смирнов",
+      "username": "asmirnov",
+      "email": "smirnov@example.ru",
+      "phone": "+7 (912) 450-11-22",
+      "website": "smirnov.dev",
+      "company": {
+        "name": "ТехноСофт",
+        "catchPhrase": "Облачные решения для бизнеса"
+      },
+      "address": {
+        "city": "Ижевск",
+        "street": "ул. Пушкинская, 268"
+      }
+    },
+    {
+      "id": "2",
+      "name": "Елена Волкова",
+      "username": "evolkova",
+      "email": "volkova@example.ru",
+      "phone": "+7 (916) 782-34-10",
+      "website": "volkova-design.ru",
+      "company": {
+        "name": "Пиксель Студия",
+        "catchPhrase": "Проектирование современных интерфейсов"
+      },
+      "address": {
+        "city": "Москва",
+        "street": "ул. Тверская, 12"
+      }
+    },
+    {
+      "id": "3",
+      "name": "Дмитрий Козлов",
+      "username": "dkozlov",
+      "email": "kozlov@example.ru",
+      "phone": "+7 (921) 304-55-89",
+      "website": "kozlov-code.ru",
+      "company": {
+        "name": "Балтик Диджитал",
+        "catchPhrase": "Надежная веб-разработка под высокие нагрузки"
+      },
+      "address": {
+        "city": "Санкт-Петербург",
+        "street": "Невский проспект, 85"
+      }
+    },
+    {
+      "id": "4",
+      "name": "Мария Соколова",
+      "username": "msokolova",
+      "email": "sokolova@example.ru",
+      "phone": "+7 (904) 611-90-45",
+      "website": "sokolova.io",
+      "company": {
+        "name": "ДатаФлоу",
+        "catchPhrase": "Аналитика и автоматизация процессов"
+      },
+      "address": {
+        "city": "Казань",
+        "street": "ул. Баумана, 44"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Игорь Морозов",
+      "username": "imorozov",
+      "email": "morozov@example.ru",
+      "phone": "+7 (919) 823-77-14",
+      "website": "morozov-stack.ru",
+      "company": {
+        "name": "УралТех",
+        "catchPhrase": "Инженерные платформы нового поколения"
+      },
+      "address": {
+        "city": "Екатеринбург",
+        "street": "ул. Ленина, 50"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Анна Новикова",
+      "username": "anovikova",
+      "email": "novikova@example.ru",
+      "phone": "+7 (950) 199-63-28",
+      "website": "novikova-qa.ru",
+      "company": {
+        "name": "СмартСистемс",
+        "catchPhrase": "Контроль качества программных продуктов"
+      },
+      "address": {
+        "city": "Новосибирск",
+        "street": "Красный проспект, 32"
+      }
+    },
+    {
+      "id": "7",
+      "name": "Сергей Лебедев",
+      "username": "slebedev",
+      "email": "lebedev@example.ru",
+      "phone": "+7 (985) 540-88-91",
+      "website": "lebedev-cloud.ru",
+      "company": {
+        "name": "Вектор ИТ",
+        "catchPhrase": "Инфраструктура и DevOps-практики"
+      },
+      "address": {
+        "city": "Нижний Новгород",
+        "street": "ул. Большая Покровская, 18"
+      }
+    }
+  ]
+}
