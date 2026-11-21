@@ -24,7 +24,7 @@ export async function POST(request: Request) {
 
     if (!parsed.success) {
       return NextResponse.json(
-        { message: parsed.error.issues?.message ?? 'Некорректные данные' },
+        { message: parsed.error.issues[0]?.message ?? 'Некорректные данные' },
         { status: 400 }
       );
     }

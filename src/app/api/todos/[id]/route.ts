@@ -20,7 +20,7 @@ export async function PATCH(request: Request, { params }: RouteContext) {
 
     if (!parsed.success) {
       return NextResponse.json(
-        { message: parsed.error.issues?.message ?? 'Некорректные данные' },
+        { message: parsed.error.issues[0]?.message ?? 'Некорректные данные' },
         { status: 400 }
       );
     }
